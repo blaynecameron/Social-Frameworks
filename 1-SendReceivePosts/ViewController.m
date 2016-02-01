@@ -116,7 +116,7 @@
     
     ACAccountType *accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
     
-    NSDictionary *options = @{ACFacebookAppIdKey: @"932013253551842",
+    NSDictionary *options = @{ACFacebookAppIdKey: @"",
                               ACFacebookPermissionsKey: @[@"user_about_me"]
                               };
     
